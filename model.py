@@ -2,11 +2,9 @@ import os
 import re
 import cv2
 import time
-import shutil
 import zipfile
 import urllib.request
 import numpy as np
-from PIL import Image
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
